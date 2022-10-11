@@ -1,0 +1,605 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+header {
+  background-color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  position: relative;
+}
+header .logo img {
+  position: absolute;
+  top: 30px;
+  left: 11px;
+  margin-left: 10px;
+}
+header nav {
+  position: absolute;
+  top: -1px;
+  right: 11px;
+}
+header nav .nav-links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+header nav .nav-links li {
+  margin: 20px;
+  padding: 20px;
+  list-style: none;
+}
+header nav .nav-links li a {
+  text-decoration: none;
+  color: hsl(243deg, 87%, 12%);
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 10px;
+  transition: all 0.5s;
+}
+header nav .nav-links li a:hover {
+  color: hsl(240deg, 75%, 98%);
+  background-color: hsl(224deg, 93%, 58%);
+  border-radius: 7px;
+}
+
+main {
+  margin-bottom: 10px;
+  width: 100%;
+  margin-bottom: 0 !important;
+}
+main .home {
+  background-color: white;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 473px;
+}
+main .home .first-text {
+  position: relative;
+  margin-right: 10px;
+  margin-left: 20px;
+  top: 10px;
+  left: 10px;
+}
+main .home .first-text h1 {
+  font-family: "Raleway", sans-serif;
+  color: hsl(243deg, 87%, 12%);
+  font-weight: 700;
+  line-height: 45px;
+}
+main .home .first-text p {
+  color: hsl(243deg, 87%, 12%);
+  font-weight: 400;
+  line-height: 30px;
+}
+main .home .first-text .input {
+  position: relative;
+  margin-top: 10px;
+  top: 84px;
+}
+main .home .first-text .input #first-email {
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  font-weight: 400;
+  margin: 5px 0 8px 0;
+  font-size: medium;
+  border-radius: 3px;
+  border: 1px solid hsl(0deg, 0%, 75%);
+}
+main .home .first-text .input #first-email:active {
+  border: 1px solid hsl(224deg, 93%, 58%);
+}
+main .home .first-text .input #first-btn {
+  padding: 10px 50px;
+  border-radius: 3px;
+  color: hsl(240deg, 75%, 98%);
+  background-color: hsl(224deg, 93%, 58%);
+  border: none;
+  font-weight: 400;
+  font-size: medium;
+  margin-left: 5px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+main .home .first-text .input #first-btn:hover {
+  background-color: hsl(224deg, 97%, 69%);
+}
+main .home .first-image {
+  position: relative;
+}
+main .home .first-image img {
+  position: relative;
+  width: 600px;
+  height: 500px;
+  top: 51px;
+  right: 43px;
+}
+main .bg-img {
+  background-image: url(../images/bg-curve-desktop.svg);
+  background-repeat: no-repeat;
+  height: 700px;
+  background-size: cover;
+  background-position: center;
+}
+main .bg-img .second-section {
+  margin-top: 150px;
+  margin-bottom: 30px;
+  position: relative;
+  top: 114px;
+}
+main .bg-img .second-section .second-text {
+  margin-top: 60px;
+  padding: 20px;
+}
+main .bg-img .second-section .second-text h1 {
+  font-family: "Raleway", sans-serif;
+  color: hsl(243deg, 87%, 12%);
+  margin: 60px 10px 20px 0;
+}
+main .bg-img .second-section .second-text .p-1 {
+  padding: 10px;
+  margin: 20px 20px 5px 0;
+  font-size: medium;
+  color: hsl(243deg, 87%, 12%);
+}
+main .bg-img .second-section .second-text .p-2 {
+  padding: 10px;
+  margin: 5px 20px 20px 0;
+  font-size: medium;
+  color: hsl(243deg, 87%, 12%);
+}
+main .bg-img .second-section .second-text span {
+  position: relative;
+  top: -8px;
+  left: 10px;
+}
+main .bg-img .second-section .second-text span a {
+  text-decoration: underline;
+  color: hsl(170deg, 45%, 43%);
+}
+main .bg-img .second-section .second-text span a:hover {
+  color: hsl(170deg, 50%, 63%);
+}
+main .bg-img .second-section .second-text span img {
+  color: hsl(170deg, 45%, 43%);
+  position: absolute;
+  top: 3px;
+  left: 150px;
+}
+main .bg-img .second-section .quotes {
+  width: 350px;
+  height: 200px;
+  margin-left: 20px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  position: relative;
+  border-radius: 5px;
+  background-color: white;
+}
+main .bg-img .second-section .quotes #quotes {
+  position: absolute;
+  top: -2px;
+  left: 1px;
+  padding-bottom: 10px;
+  padding: 20px;
+}
+main .bg-img .second-section .quotes p {
+  position: absolute;
+  top: 34px;
+  left: 21px;
+}
+main .bg-img .second-section .quotes .avatar {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  width: 50%;
+}
+main .bg-img .second-section .quotes .avatar #avatar {
+  border-radius: 50%;
+  width: 30px;
+  position: relative;
+  top: 77px;
+  left: -79px;
+}
+main .bg-img .second-section .quotes .avatar h4 {
+  color: hsl(243deg, 87%, 12%);
+  font-weight: 400;
+  font-size: medium;
+  position: absolute;
+  top: 75px;
+  left: -40px;
+}
+main .bg-img .second-section .quotes .avatar h6 {
+  position: absolute;
+  top: 99px;
+  left: -40px;
+  color: hsl(238deg, 22%, 44%);
+}
+main .bg-img .second-section .second-image {
+  position: absolute;
+  top: 162px;
+  right: 51px;
+}
+main .bg-img .second-section .second-image #sec-img {
+  width: 450px;
+  height: auto;
+}
+main .last-section {
+  background-color: hsl(238deg, 22%, 44%);
+  padding: 100px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  height: 130px;
+}
+main .last-section .text {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+main .last-section .text h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  margin: 20px 20px 20px 0;
+}
+main .last-section .text p {
+  font-weight: 400;
+  margin: 20px 20px 20px 0;
+  font-size: medium;
+}
+main .last-section .last-input {
+  position: absolute;
+  top: 131px;
+  right: 13px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 10px;
+}
+main .last-section .last-input #last-email {
+  padding-right: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  font-weight: 400;
+  margin: 5px 0 0 8px;
+  font-size: medium;
+  border-radius: 3px;
+  border: 1px solid hsl(0deg, 0%, 75%);
+}
+main .last-section .last-input #last-email:active, main .last-section .last-input #last-email :hover {
+  border: 1px solid blue;
+}
+main .last-section .last-input #last-btn {
+  padding: 10px;
+  color: hsl(240deg, 75%, 98%);
+  background-color: hsl(224deg, 93%, 58%);
+  border: none;
+  font-weight: 400;
+  font-size: medium;
+  margin-left: 5px;
+  cursor: pointer;
+  transition: all 0.5s;
+  position: absolute;
+  top: 56px;
+}
+main .last-section .last-input #last-btn:hover, main .last-section .last-input #last-btn :active {
+  background-color: hsl(224deg, 97%, 69%);
+}
+
+footer {
+  background-color: hsl(243deg, 87%, 12%);
+  margin-top: 0;
+}
+footer .contact {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .contact .first {
+  margin-top: 50px;
+  padding-bottom: 100px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+footer .contact .first .last-logo {
+  padding-bottom: 20px;
+}
+footer .contact .first .phone {
+  color: white;
+  padding-bottom: 20px;
+}
+footer .contact .first .email {
+  color: white;
+  padding-bottom: 20px;
+}
+footer .contact .second {
+  margin-top: 50px;
+}
+footer .contact .second .about li {
+  list-style: none;
+  padding-bottom: 10px;
+}
+footer .contact .second .about li a {
+  text-decoration: none;
+  color: white;
+}
+footer .contact .last {
+  margin-top: 50px;
+}
+footer .contact .last .conct li {
+  list-style: none;
+  padding-bottom: 10px;
+}
+footer .contact .last .conct li a {
+  text-decoration: none;
+  color: white;
+}
+footer .contact .social {
+  margin-top: 50px;
+}
+footer .contact .social span {
+  padding-right: 10px;
+}
+footer .contact .social span a {
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    max-width: 375px;
+    height: auto;
+  }
+  header {
+    width: 100%;
+    height: 50px;
+    position: relative;
+    margin-bottom: 70px;
+  }
+  header .logo img {
+    position: absolute;
+    top: 30px;
+    left: 11px;
+    margin-left: 10px;
+  }
+  header nav {
+    position: absolute;
+    top: 2px;
+    right: -494px;
+  }
+  header nav .nav-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  main {
+    margin-bottom: 10px;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  main .home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 702px;
+    margin-bottom: 60px;
+    padding-bottom: 449px;
+  }
+  main .home .first-text {
+    position: relative;
+    top: 380px;
+    left: 229px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  main .home .first-text h1 {
+    width: 428px;
+    position: absolute;
+    top: 118px;
+    left: -109px;
+    font-weight: 700;
+    line-height: 45px;
+    padding-left: 40px;
+    padding-right: 40px;
+    -moz-text-align-last: center;
+         text-align-last: center;
+    margin-bottom: 30px;
+  }
+  main .home .first-text p {
+    position: absolute;
+    top: 274px;
+    left: 51px;
+    width: 200px;
+  }
+  main .home .first-text .input {
+    position: absolute;
+    top: 518px;
+    left: 21px;
+    width: 300px;
+  }
+  main .home .first-text .input #first-email {
+    width: 200px;
+    position: relative;
+    top: -9px;
+    left: 10px;
+  }
+  main .home .first-text .input #first-btn {
+    width: 258px;
+    position: relative;
+    top: -3px;
+    left: 10px;
+  }
+  main .home .first-image {
+    position: relative;
+    top: -74px;
+    right: 75px;
+  }
+  main .bg-img {
+    background-image: url(../images/bg-curve-mobile.svg);
+    height: 1020px;
+    width: 874px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 211px;
+    margin-bottom: 30px;
+    position: relative;
+    top: 10px;
+    left: -2px;
+  }
+  main .bg-img .second-section {
+    height: 700px;
+    padding-bottom: 20px;
+  }
+  main .bg-img .second-section .second-text {
+    width: 552px;
+    position: relative;
+    top: 103px;
+    left: 135px;
+  }
+  main .bg-img .second-section .second-text h1 {
+    margin-bottom: 60px;
+    padding-left: 20px;
+  }
+  main .bg-img .second-section .second-text .p-1 {
+    height: 20px;
+    margin-bottom: 60px;
+    width: 484px;
+    text-align: center;
+  }
+  main .bg-img .second-section .second-text .p-1 br {
+    display: none;
+  }
+  main .bg-img .second-section .second-text .p-2 {
+    height: 20px;
+    margin-bottom: 60px;
+    width: 484px;
+    text-align: center;
+  }
+  main .bg-img .second-section .second-text .p-2 br {
+    display: none;
+  }
+  main .bg-img .second-section .second-text span {
+    position: relative;
+    top: -15px;
+    left: 143px;
+  }
+  main .bg-img .second-section .quotes {
+    width: 350px;
+    height: 200px;
+    position: relative;
+    top: 96px;
+    left: 176px;
+  }
+  main .bg-img .second-section .second-image {
+    position: absolute;
+    top: -202px;
+    right: 171px;
+  }
+  main .bg-img .second-section .second-image #sec-img {
+    width: 450px;
+    height: auto;
+  }
+  main .last-section {
+    width: 676px;
+    position: relative;
+    height: 130px;
+  }
+  main .last-section .text {
+    position: absolute;
+    top: 14px;
+    left: 218px;
+  }
+  main .last-section .text h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+  }
+  main .last-section .text p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 329px;
+    -moz-text-align-last: center;
+         text-align-last: center;
+  }
+  main .last-section .text p br {
+    display: none;
+  }
+  main .last-section .last-input {
+    position: absolute;
+    top: 203px;
+    right: 217px;
+    width: 439px;
+  }
+  main .last-section .last-input #last-email {
+    width: 200px;
+  }
+  main .last-section .last-input #last-btn {
+    width: 320px;
+  }
+  footer {
+    position: relative;
+    bottom: 0;
+    right: -5px;
+    width: 874px;
+  }
+  footer .contact {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  footer .contact .first {
+    width: 400px;
+    position: relative;
+    top: 7px;
+    right: -342px;
+  }
+  footer .contact .first .last-logo {
+    padding-bottom: 40px;
+  }
+  footer .contact .first .phone {
+    padding-bottom: 40px;
+  }
+  footer .contact .first .email {
+    padding-bottom: 40px;
+  }
+  footer .contact .second {
+    width: 400px;
+    position: relative;
+    top: -143px;
+    right: -356px;
+  }
+  footer .contact .last {
+    width: 400px;
+    position: relative;
+    top: -143px;
+    right: -356px;
+  }
+  footer .contact .social {
+    width: 400px;
+    position: relative;
+    top: -143px;
+    right: -356px;
+  }
+}/*# sourceMappingURL=style.css.map */
